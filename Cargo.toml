@@ -1,0 +1,12 @@
+[package]
+name = "rust-web-server"
+version = "0.1.0"
+authors = ["Kyle E. Mitchell <kyle@kemitchell.com>"]
+publish = false
+edition = "2018"
+repository = "https://github.com/kemitchell/rust-web-server"
+readme = "README.md"
+
+[dependencies]
+hyper = "0.13.0-alpha.4"
+tokio = "0.2.0-alpha.6"
